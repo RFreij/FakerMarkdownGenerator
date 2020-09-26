@@ -1,6 +1,6 @@
 <?php
 
-namespace DavidBadura\FakerMarkdownGenerator;
+namespace Netcreaties\FakerMarkdownGenerator;
 
 use DavidBadura\MarkdownBuilder\MarkdownBuilder;
 use Faker\Provider\Lorem;
@@ -35,7 +35,7 @@ class FakerProvider extends Lorem
             if (self::randomDigit() > 3) {
                 $parts[] = self::markdownNumberedList();
             }
-            
+
             if (self::randomDigit() > 3) {
                 $parts[] = self::markdownCode();
             }

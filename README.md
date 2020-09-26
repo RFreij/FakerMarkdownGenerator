@@ -10,19 +10,19 @@ Installation
 Add the FakerMarkdownGenerator library to your `composer.json` file:
 
 ```
-composer require davidbadura/faker-markdown-generator
+composer require netcreaties/faker-markdown-generator
 ```
 
 Usage
 -----
 
-To  use this with [Faker](https://github.com/fzaninotto/Faker), you must add the `DavidBadura\FakerMarkdownGenerator\FakerProvider` class to the Faker generator:
+To  use this with [Faker](https://github.com/fzaninotto/Faker), you must add the `Netcreaties\FakerMarkdownGenerator\FakerProvider` class to the Faker generator:
 
 ```php
 <?php
 
 $faker = \Faker\Factory::create();
-$faker->addProvider(new \DavidBadura\FakerMarkdownGenerator\FakerProvider($faker));
+$faker->addProvider(new \Netcreaties\FakerMarkdownGenerator\FakerProvider($faker));
 
 echo $faker->markdown();
 

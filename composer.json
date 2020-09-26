@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "DavidBadura\\FakerMarkdownGenerator\\": "src/"
+            "Netcreaties\\FakerMarkdownGenerator\\": "src/"
         }
     },
     "minimum-stability": "stable"
