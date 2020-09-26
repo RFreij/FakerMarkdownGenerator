@@ -10,7 +10,15 @@ Installation
 Add the FakerMarkdownGenerator library to your `composer.json` file:
 
 ```
-composer require netcreaties/faker-markdown-generator
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/RFreij/FakerMarkdownGenerator"
+        },
+        "require": {
+            "netcreaties/faker-markdown-generator": "^1.0",
+        }    
+    ],
 ```
 
 Usage
