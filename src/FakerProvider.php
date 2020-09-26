@@ -35,8 +35,12 @@ class FakerProvider extends Lorem
             if (self::randomDigit() > 3) {
                 $parts[] = self::markdownNumberedList();
             }
+            
+            if (self::randomDigit() > 3) {
+                $parts[] = self::markdownCode();
+            }
 
-        } while (self::randomDigit() > 5 || count($parts) < 3);
+        } while (self::randomDigit() > 7 || count($parts) < 5);
 
         return implode("\n\n", $parts);
     }
