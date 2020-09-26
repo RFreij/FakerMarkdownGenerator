@@ -1,5 +1,5 @@
 {
-    "name": "davidbadura/faker-markdown-generator",
+    "name": "netcreaties/faker-markdown-generator",
     "description": "Faker Markdown Generator",
     "keywords": [
         "markdown",
@@ -11,6 +11,10 @@
         {
             "name": "DavidBadura",
             "email": "d.badura@gmx.de"
+        },
+        {
+            "name": "Roy Freij",
+            "email": "info@royfreij.nl"
         }
     ],
     "require": {
